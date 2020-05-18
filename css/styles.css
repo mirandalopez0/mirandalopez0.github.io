@@ -1,7 +1,7 @@
 
 .navbar-custom {
   background-color: #888;
-  box-shadow: 0px 2px 7px 1px #555;
+  box-shadow: 0px 1px 4px 1px #555;
 }
 
 .navbar-custom .navbar-brand,
@@ -64,17 +64,4 @@ div.card-body a,
 
 .content {
   margin-top: 50px;
-}
-
-
-
-
-.footer-custom {
-  background-color: #888;
-  box-shadow: 0px -2px 7px 1px #555;
-}
-
-.footer-custom .footer-text {
-  color: pink;
-
 }
