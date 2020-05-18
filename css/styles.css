@@ -5,7 +5,7 @@ body {
   background-color: #fafafa;
   background-size: 200px;
   background-repeat: round;
-  background-image: linear-gradient(to bottom, rgba(255,255,255,0.8) 0%,rgba(255,255,255,0.8) 100%),url("../background_pattern.png");
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0.8) 0%,rgba(255,255,255,0.8) 100%),url("../images/background_pattern.png");
 }
 
 div.card-body a,
@@ -33,6 +33,10 @@ div.card-body a,
 .btn-primary:hover{
   background-color: lightpink;
   border: none;
+}
+
+.content {
+  margin-top: 50px;
 }
 
 .navbar-custom {
