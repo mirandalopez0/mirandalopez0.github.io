@@ -1,4 +1,29 @@
 
+.navbar-custom {
+  background-color: #888;
+  box-shadow: 0px 2px 7px 1px #555;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+  color: pink;
+  font-size: 30px;
+}
+
+.navbar-custom .navbar-toggler {
+  border-color: pink;
+}
+
+.navbar-custom .navbar-brand {
+  /* font-family: 'Acme', sans-serif; */
+  font-family: 'Emilys Candy', cursive;
+  /* font-family: 'Fira Sans Extra Condensed', sans-serif; */
+  /* font-family: 'Signika Negative', sans-serif; */
+}
+
+.navbar-custom .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255,192,203)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
 
 body {
   padding-top: 56px;
@@ -7,6 +32,8 @@ body {
   background-repeat: round;
   background-image: linear-gradient(to bottom, rgba(255,255,255,0.8) 0%,rgba(255,255,255,0.8) 100%),url("../images/background_pattern.png");
 }
+
+/* Projects are cards */
 
 div.card-body a,
 .text-pink {
@@ -39,23 +66,8 @@ div.card-body a,
   margin-top: 50px;
 }
 
-.navbar-custom {
-  background-color: #888;
-  box-shadow: 0px 2px 7px 1px #555;
-}
 
-.navbar-custom .navbar-brand,
-.navbar-custom .navbar-text {
-  color: pink;
-  font-size: 30px;
-}
 
-.navbar-custom .navbar-brand {
-  /* font-family: 'Acme', sans-serif; */
-  font-family: 'Emilys Candy', cursive;
-  /* font-family: 'Fira Sans Extra Condensed', sans-serif; */
-  /* font-family: 'Signika Negative', sans-serif; */
-}
 
 .footer-custom {
   background-color: #888;
@@ -65,12 +77,4 @@ div.card-body a,
 .footer-custom .footer-text {
   color: pink;
 
-}
-
-.navbar-custom .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255,192,203)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-}
-
-.navbar-custom .navbar-toggler {
-  border-color: pink;
 }
