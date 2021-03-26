@@ -35,8 +35,7 @@ body {
 
 /* Projects are cards */
 
-div.card-body a,
-.text-pink {
+div.card-body a, .text-pink {
   color: pink;
 }
 
